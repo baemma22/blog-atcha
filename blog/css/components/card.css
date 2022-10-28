@@ -1,0 +1,50 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;  
+  flex-grow: 1;
+  border-radius: 4px;
+}
+
+.card{
+  flex-basis: 200px;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+  box-shadow: 3px 5px 5px lightgrey;
+  border-radius: 4px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+	padding: 10px;
+}
+
+.card img {
+  width: 50px;
+}
+.card h3 {
+  padding-left: 15px;
+}
+
+.card-equipe {
+  width: 100%;
+}
+
+.card-equipe ul, .card-equipe  {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
